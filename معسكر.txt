@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة الريادة القابضة</title>
+    <style>
+	
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+			direction: rtl; /* النصوص من اليمين لليسار */
+        }
+		
+        header {
+            background-color: #737373; /* اللون الرمادي */
+            color: #fff;
+            padding: 15px 25px;
+            text-align: center;
+            position: sticky;
+            top: 10;
+            width: 100%;
+			height: 20;
+			
+			
+        }
+        header img {
+            max-width: 300px; /* حجم مناسب للشعار */
+            height: auto;
+            display: block;
+            margin: 0 auto -20px auto; /* توسيط الشعار */
+        }
+        nav {
+            margin-top: 1px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #d5a01c; /* اللون الأصفر */
+            margin: 0 17px;
+            font-weight: bold;
+        }
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .section {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #737373; /* اللون الرمادي */
+            border-bottom: 2px solid #d5a01c; /* اللون الأصفر */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 30;
+        }
+        .section ul li {
+            padding: 10px 0;
+            border-bottom: 3px solid #eee;
+        }
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #737373; /* اللون الرمادي */
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 2;
+        }
+        .vision-mission {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .vision-mission h2 {
+            color: #737373; /* اللون الرمادي */
+            border-bottom: 2px solid #d5a01c; /* اللون الأصفر */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .vision-mission p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+	<div class="rtl-text">
+        <img src="images/1.png" alt="شعار الشركة">
+        <h1>شركة الريادة القابضة</h1>
+        <nav>
+            <a href="#about">من نحن</a>
+            <a href="#services">خدماتنا</a>
+            <a href="#contact">التواصل</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="vision-mission">
+            <h1>من نحن</h1>
+			<p>نحن شركة متخصصة في تقديم خدمات الاستشارات المالية والمحاسبية، نهدف إلى دعم الأفراد والشركات في تحقيق أهدافهم المالية من خلال تقديم حلول مبتكرة وشاملة. يتكون فريقنا من خبراء محترفين ذوي خبرة واسعة في مجالات المحاسبة، التخطيط المالي، والاستثمار. نحن ملتزمون بتقديم خدمة مخصصة تلبي احتياجات عملائنا، مع التركيز على الشفافية والثقة.
+
+نحن نؤمن بأن التخطيط المالي الجيد هو الأساس لتحقيق الاستقرار والنمو، لذا نعمل بجد لتزويد عملائنا بالأدوات والمعرفة اللازمة لاتخاذ قرارات مالية مدروسة. سواء كنت تبحث عن إدارة ميزانيتك الشخصية، أو تحتاج إلى استشارات لمشروعك الناشئ، نحن هنا لمساعدتك في كل خطوة على الطريق.<p>
+
+
+        </div>
+
+    <div class="container">
+        <div class="vision-mission">
+            <h1>رؤيتنا ورسالتنا</h1>
+            <p><strong>الرؤية:</strong> أن نكون الخيار الأول في تقديم خدمات الاستشارات المالية والمحاسبية، من خلال الابتكار والتميز، مما يساهم في تعزيز النمو المالي للأفراد والشركات في المجتمع</p>
+            <p><strong>الرسالة:</strong> نلتزم بتقديم استشارات مالية ومحاسبية احترافية وشاملة، تهدف إلى تمكين عملائنا من تحقيق أهدافهم المالية من خلال التخطيط الدقيق، التحليل العميق، وتوفير الحلول المخصصة. نهدف إلى بناء علاقات طويلة الأمد مع عملائنا، مستندين إلى الثقة والشفافية والالتزام بأعلى معايير الخدمة</p>
+        </div>
+
+        <div id="services" class="section">
+            <h1>خدماتنا</h1>
+
+            <div>
+                <h2>تخطيط الميزانية</h2>
+                <ul>
+                    <li>مساعدة الأفراد والشركات في إعداد ميزانيات شهرية وسنوية</li>
+                    <li>تقديم نصائح حول كيفية التحكم في النفقات وزيادة المدخرات</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>استشارات الاستثمار</h2>
+                <ul>
+                    <li>تقديم توجيهات حول خيارات الاستثمار المتاحة، مثل الأسهم، السندات، والعقارات</li>
+                    <li>مساعدة العملاء في بناء محفظة استثمارية متوازنة</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>إدارة الديون</h2>
+                <ul>
+                    <li>تقديم استراتيجيات لتسديد الديون وتقليل الفوائد</li>
+                    <li>مساعدة الأفراد في إعادة هيكلة قروضهم</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>التخطيط للتقاعد</h2>
+                <ul>
+                    <li>مساعدة الأفراد في وضع خطط ادخار للتقاعد، بما في ذلك خيارات التقاعد المتاحة</li>
+                    <li>تقديم استشارات حول كيفية استثمار الأموال لتحقيق أهداف التقاعد</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>الضرائب</h2>
+                <ul>
+                    <li>تقديم استشارات بشأن التخطيط الضريبي وكيفية تقليل الالتزامات الضريبية بشكل قانوني</li>
+                    <li>مساعدة الشركات في إعداد تقارير الضرائب</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>المحاسبة المالية</h2>
+                <ul>
+                    <li><strong>إعداد القوائم المالية:</strong> تقديم خدمات إعداد الميزانيات العمومية، قوائم الدخل، وقوائم التدفقات النقدية</li>
+                    <li><strong>المحاسبة الضريبية:</strong> مساعدة الشركات والأفراد في إعداد تقارير الضرائب بدقة وتقديم استشارات حول استراتيجيات التخفيف الضريبي</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>التدقيق والمراجعة</h2>
+                <ul>
+                    <li><strong>خدمات التدقيق الداخلي:</strong> إجراء مراجعات داخلية لضمان التوافق مع المعايير المالية</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>استشارات التكاليف</h2>
+                <ul>
+                    <li><strong>تحليل التكاليف:</strong> تقديم استشارات حول كيفية تقليل التكاليف وزيادة الكفاءة</li>
+                    <li><strong>تحديد تكلفة المنتجات:</strong> مساعدة الشركات في تحديد التكاليف الفعلية للمنتجات والخدمات</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>التخطيط المالي</h2>
+                <ul>
+                    <li><strong>إعداد الميزانيات:</strong> مساعدة الشركات في إعداد الميزانيات السنوية وتقدير الإيرادات والنفقات</li>
+                    <li><strong>تحليل الفجوة المالية:</strong> تقديم تقارير حول الفجوات بين الأهداف المالية والواقع</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>إدارة النقد</h2>
+                <ul>
+                    <li><strong>تحليل التدفقات النقدية:</strong> تقديم استشارات حول إدارة التدفقات النقدية وضمان توافر السيولة</li>
+                    <li><strong>التنبؤ بالتدفقات النقدية:</strong> مساعدة الشركات في توقع التدفقات النقدية المستقبلية</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>استشارات الشركات الناشئة</h2>
+                <ul>
+                    <li><strong>إعداد خطة عمل مالية:</strong> مساعدة رواد الأعمال في إعداد خطط عمل مالية شاملة</li>
+                    <li><strong>تأمين التمويل:</strong> تقديم استشارات حول كيفية الحصول على التمويل من المستثمرين أو المؤسسات المالية</li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>تدريب وتطوير</h2>
+                <ul>
+                    <li><strong>دورات تدريبية في المحاسبة:</strong> تنظيم ورش عمل ودورات في المحاسبة المالية وإدارة الأموال</li>
+                    <li><strong>برامج تدريبية مخصصة:</strong> تقديم برامج تدريبية مخصصة للموظفين في الشركات</li>
+                </ul>
+            </div>
+			
+        <div id="contact" class="contact-info">
+            <h1>التواصل معنا</h1>
+            <p><strong>تويتر:</strong> <a href="https://twitter.com/Alreyadah2024" target="_blank">@Alreyadah2024</a></p>
+            <p><strong>البريد الإلكتروني:</strong> <a href="mailto:alreyadah.2024@gmail.com">alreyadah.2024@gmail.com</a></p>
+            <p><strong>لينكد إن:</strong> <a href="https://www.linkedin.com/company/%D8%B4%D8%B1%D9%83%D8%A9-%D9%84%D8%B1%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%82%D8%A7%D8%A8%D8%B6%D8%A9/?viewAsMember=true" target="_blank">شركة الريادة القابضة</a></p>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 شركة الريادة القابضة. جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
